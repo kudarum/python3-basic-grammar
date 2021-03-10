@@ -1,9 +1,9 @@
-##1. Print
+#1. Print
 ***
-###1.1. Print 란
+##1.1. Print 란
 ***
 Python으로 작업된 결과물을 화면에 출력하기 위해 사용
-###1.2. 기본문법
+##1.2. 기본문법
 ***
 * print("출력할 내용")
 ```python
@@ -19,9 +19,9 @@ Python Start!
 Python Start!
 Python Start!
 ```
-### 1.3. Option 사용
+## 1.3. Option 사용
 ***
-#### 1) separator
+### 1) separator
 * 문자열의 연결을 어떻게 할 것인가!
 ```python
 print('P','y','t','h','o','n', sep=',')
@@ -30,7 +30,7 @@ print('P','y','t','h','o','n', sep=',')
 ```text
 P,y,t,h,o,n
 ```
-#### 2) end
+### 2) end
 * 마지막 부분을 어떻게 처리할 것인가
 ```python
 print('Welcome to', end='\n')
@@ -40,7 +40,7 @@ print('Welcome to', end='\n')
 Welcome to
 (공백)
 ```
-#### 3) format
+### 3) format
 * d : 정수
 * s : 문자열
 * f : 실수

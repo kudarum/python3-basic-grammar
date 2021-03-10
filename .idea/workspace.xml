@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55f5c78-2389-4063-b0d0-57768c420db3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01/Print.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01/PRINT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,12 +103,31 @@
       <workItem from="1615344491516" duration="21000" />
       <workItem from="1615344532858" duration="13000" />
       <workItem from="1615344556886" duration="291000" />
-      <workItem from="1615344854051" duration="4482000" />
+      <workItem from="1615344854051" duration="4784000" />
     </task>
+    <task id="LOCAL-00001" summary="Print 문법 정리">
+      <created>1615354057105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615354057105</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Print 문법 정리">
+      <created>1615354123968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615354123968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Print 문법 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print 문법 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
