@@ -28,7 +28,7 @@ m = 100
 n = 100
 print(id(m) == id(n)) # True
 ```
-### 1.4. 다양한 변수 선언 방법
+## 1.4. 다양한 변수 선언 방법
 * Camel Case : numberOfCollageGraduates -> Method 선언
 * Pascal Case : NumberOfCollageGraduates -> Class 선언
 * snake Case : number_of_collage_graduates -> python 변수 선언
