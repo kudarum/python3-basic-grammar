@@ -1,10 +1,7 @@
 # 1. Print
-***
 ## 1.1. Print 란
-***
 Python으로 작업된 결과물을 화면에 출력하기 위해 사용
 ## 1.2. 기본문법
-***
 * print("출력할 내용")
 ```python
 print('Python Start!')
@@ -20,7 +17,6 @@ Python Start!
 Python Start!
 ```
 ## 1.3. Option 사용
-***
 ### 1) separator
 * 문자열의 연결을 어떻게 할 것인가!
 ```python
