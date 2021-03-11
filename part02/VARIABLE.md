@@ -718,3 +718,88 @@ print("a - ", a)
 > a -  {'name': 'Kim', 'phone': '01033337777', 'birth': '890503'}
 > a -  {'name': 'Kim', 'phone': '01033337777', 'birth': '890503', 'test': 'test_dict'}
 > a -  {'name': 'Kim', 'phone': '01033337777', 'birth': '910904', 'test': 'test_dict'}
+
+
+## 2.8. Set
+* 특징 : 순서 X, 중복 X, 수정 O, 삭제 O
+* 기본 선언
+```python
+a = set()
+b = set([1, 2, 3, 4])
+c = set([1, 4, 4, 4, 4, 5, 6])  # 중복을 허용하지 않음
+d = set([1, 2, 'Pen', 'Cap', 'Plate'])
+# {} : key: value 구조이면 dic // value만 있으면 set
+e = {'foo', 'bar', 'bzz', 'foo', 'qux'}
+f = {42, 'foo', (1, 2, 3), 3.14159}
+```
+
+* 형변환
+* 튜블 변환 (set -> tuple)
+```python
+a = set([1, 2, 3, 4])
+b = tuple(a)
+print('t - ', type(t), t)
+print('t - ', t[0], t[1:3])
+```
+> `<출력결과>`</br>
+> t -  <class 'tuple'> (1, 2, 3, 4)
+> t -  1 (2, 3)
+
+* 리스트 형변환 (set -> list)
+```python
+c = set([1, 4, 4, 4, 4, 5, 6])  # 중복을 허용하지 않음
+l = list(c)
+print('l - ', l)
+```
+> `<출력결과>`</br>
+> l -  [1, 4, 5, 6]
+
+### Set Function
+* len : 튜플의 길이 측정
+```python
+a = set([1, 2, 3, 4])
+print(len(a))
+```
+> `<출력결과>`</br>
+> 3
+
+* add : Set에 데이터 추가
+```python
+s1 = set([1, 2, 3, 4])
+s1.add(5)
+print('s1 - ', s1)
+```
+> `<출력결과>`</br>
+> s1 -  {1, 2, 3, 4, 5}
+
+* remove : Set에서 해당 데이터 제거 (없는 원소 삭제시 KeyError 발생)
+```python
+s1 = set([1, 2, 3, 4])
+s1.remove(4)
+print('s1 - ', s1)
+# 없는 원소 삭제시 KeyError 발생
+s1.remove(5) # 오류 발생
+```
+> `<출력결과>`</br>
+> s1 -  {1, 2, 3, 5}
+
+* discard : Set에서 해당 데이터 제거 (없는 원소 삭제해도 오류 발생하지 않음)
+```python
+s1 = set([1, 2, 3, 4])
+s1.discard(5)
+print('s1 - ', s1)
+s1.discard(4)
+print('s1 - ', s1)
+```
+> `<출력결과>`</br>
+> s1 -  {1, 2, 3, 4}
+> s1 -  {1, 2, 3}
+
+* clear : 전체 삭제
+```python
+s1 = set([1, 2, 3, 4])
+s1.clear()
+print('s1 - ', s1)
+```
+> `<출력결과>`</br>
+> s1 -  set()
