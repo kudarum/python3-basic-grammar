@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55f5c78-2389-4063-b0d0-57768c420db3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/part02/VARIABLE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part02/Variable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part02/VARIABLE.md" beforeDir="false" afterPath="$PROJECT_DIR$/part02/VARIABLE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1pY0015ek1tfo9i8tOxfaMDxIJQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,7 +111,8 @@
       <workItem from="1615344491516" duration="21000" />
       <workItem from="1615344532858" duration="13000" />
       <workItem from="1615344556886" duration="291000" />
-      <workItem from="1615344854051" duration="6894000" />
+      <workItem from="1615344854051" duration="13981000" />
+      <workItem from="1615444037145" duration="5618000" />
     </task>
     <task id="LOCAL-00001" summary="Print 문법 정리">
       <created>1615354057105</created>
@@ -148,7 +156,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615354569220</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="변수 과련 내용 커밋">
+      <created>1615358933654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615358933654</updated>
+    </task>
+    <task id="LOCAL-00008" summary="변수 과련 내용 커밋">
+      <created>1615358979882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615358979882</updated>
+    </task>
+    <task id="LOCAL-00009" summary="변수 과련 내용 커밋">
+      <created>1615361621379</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615361621379</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Print 문법 정리" />
     <MESSAGE value="마크다운 수정중" />
-    <option name="LAST_COMMIT_MESSAGE" value="마크다운 수정중" />
+    <MESSAGE value="변수 과련 내용 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="변수 과련 내용 커밋" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
